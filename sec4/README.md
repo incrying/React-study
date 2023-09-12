@@ -16,7 +16,6 @@ DOM element의 가상 표현이 React element임.
 자바스크립트 객체 형태로 존재. 한번 생성되면 바꿀 수 없는 불변성을 지님.
 
 ```jsx
-//이거 뭐임>
 {
 	type: 'button',
 	props: {
