@@ -16,7 +16,6 @@ DOM element의 가상 표현이 React element임.
 자바스크립트 객체 형태로 존재. 한번 생성되면 바꿀 수 없는 불변성을 지님.
 
 ```jsx
-//이거 뭐임>
 {
 	type: 'button',
 	props: {
@@ -125,3 +124,23 @@ React로만 만들어진 모든 웹사이트는 단 하나의 root DOM node 지�
 const element = <h1> 안녕, 리액트! </h1>;
 ReactDOM.render(element, document.getElementBtId("root"));
 ```
+
+- **Rendering Elements update**
+
+Elements는 불변성을 지니기 때문에 Element update 위해서는 다시 생성해야 함
+
+```jsx
+function tick() {
+  const element = (
+    <div>
+      <h1>안녕, 리액트!</h1>
+      <h2>현재 시간: {new Date().toLocaleTimeString()}</h2>
+    </div>
+  );
+  ReactDOM.render(element, document.getElementById("root"));
+}
+
+setInterval(tick, 1000);
+```
+
+`setInterval` 통해 매 초 새로운 Element가 생성되는 것을 볼 수 있음.
