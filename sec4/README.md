@@ -3,7 +3,7 @@
 리액트 앱을 구성하는 가장 작은 블록들. 화면에서 보이는 것들을 기술함
 
 <aside>
-❗ **React Element와 DOM Element의 차이**
+❗ React Element와 DOM Element의 차이
 
 ![1](https://github.com/incrying/React-study/assets/114045826/3fad2cf2-674c-4394-87e5-7a8f2868c99f)
 
@@ -110,7 +110,7 @@ function ConfirmDialog(props) {
 React element는 불변성을 지니므로, element 생성 후에는 children이나 attributes 바꿀 수 없음
 
 <aside>
-❗ 변동 사항이 생길 때 마다 **element 계속 생성**하는 것.  개발 시 이를 고려하면 성능 개선에 도움 줄 수 있음.
+❗ 변동 사항이 생길 때 마다 element 계속 생성하는 것.  개발 시 이를 고려하면 성능 개선에 도움 줄 수 있음.
 
 </aside>
 
