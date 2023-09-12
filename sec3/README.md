@@ -6,7 +6,8 @@ Javascript + XML/HTML 자바스크립트 문법의 확장
 
 xml/html 코드를 javascript 코드로 변환함.
 
-React는 JSX 코드를 createElement를 사용하는 코드로 변환. 코드 작성 시 createElement를 이용하여 JSX를 사용하지 않아도 되지만, 효율성이 상승하기 때문에 이득.
+React는 JSX 코드를 createElement를 사용하는 코드로 변환. 
+코드 작성 시 createElement를 이용하여 JSX를 사용하지 않아도 되지만, 효율성이 상승하기 때문에 이득.
 
 ```jsx
 //JSX를 사용한 코드
@@ -49,7 +50,7 @@ ReactDOM.render(
 React.createElement("div", null, `Hello, ${name}`); //JSX 미사용
 ```
 
-- XSS 방어
+- **XSS 방어**
 
 ```jsx
 const title = response.potentiallyMaliciousInput;
