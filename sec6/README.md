@@ -38,7 +38,7 @@ this.setState({
 
 **React Class Component의 생명 주기**
 
-![7.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/7536f4be-19c3-444f-9c8b-180127bfe490/448890f7-43b3-4db9-a15f-34293fa0329e/7.jpg)
+![7](https://github.com/incrying/React-study/assets/114045826/5e441d4e-158d-4662-b49a-0c3efe79d785)
 
 - **Lifecycle Method**: 생명 주기에 따라 호출되는 Class Component의 함수
 - Component가 계속 존재하는 것이 아니라, 시간의 흐름에 따라 생성되고 업데이트 되다가 사라진다.
