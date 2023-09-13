@@ -6,13 +6,13 @@ React는 Component 기반의 구조.
 
 - **component 반복적으로 사용**함으로써 코드의 양을 줄이고, 개발 전반에 있어 효율을 높임
 
-![4.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/7536f4be-19c3-444f-9c8b-180127bfe490/8cc8a876-92b5-439c-80e2-480860d67854/4.jpg)
+![4](https://github.com/incrying/React-study/assets/114045826/23f55c2d-871d-4ea4-b0a4-7a8951d6cf6b)
 
 - React component는 어떠한 속성들을 입력으로 받아 **그에 맞는 Element 생성하여 반환**
 
 **Props**
 
-![5.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/7536f4be-19c3-444f-9c8b-180127bfe490/61974027-2368-4e48-b3c2-8d7e848b106f/5.jpg)
+![5](https://github.com/incrying/React-study/assets/114045826/82880b23-0f50-42b1-acbf-916a747794ae)
 
 property. **Component에 전달할 다양한 정보를 담고 있는 자바스크립트 객체**
 
